@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.coffee.coffee</id>
+    <name>CoffeeDrink</name>
+    <vendor email="supsport@yourcompany.com" url="http://www.yourcsompany.com">YourCosmpany</vendor>
+
+    <description><![CDATA[
+    fdsfdsfdsafdasfd fadsf da fda fdsa fdsaf fdsfa daf daf
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="coffee" anchor="right"
+                    factoryClass="com.coffee.CoffeeFactory"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
